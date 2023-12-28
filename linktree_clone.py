@@ -23,11 +23,13 @@ st.markdown(
 st.title("Hi-ya!!!👋, I'm Nikita Prasad")
 st.write("Data Analyst | Machine Learning and Data Analytics Practitioner")
 
-# Apply styling for title and description
+# Center the title
 st.markdown(
-    "<p style='color: #685344; font-size: 18px; text-align: center;'>"
-    "Your Name\n\nSmall description about you."
-    "</p>",
+    """<style>
+        div.stTitle {
+            text-align: center;
+        }
+    </style>""",
     unsafe_allow_html=True,
 )
 
