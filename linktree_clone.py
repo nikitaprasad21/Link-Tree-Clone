@@ -1,7 +1,7 @@
 # link_tree_clone.py
 import streamlit as st
 from PIL import Image
-from st_functions import load_css, create_custom_button
+from st_functions import load_css, st_button
 
 load_css()
 
@@ -36,28 +36,25 @@ st.markdown(
 icon_size = 20
 
 # Creating buttons for social media links
-create_custom_button(
+st_button(
     "portfolio",
     "https://www.notion.so/Hi-ya-I-m-Nikita-Prasad-f7115123c49e418ebebe6adca109b406?pvs=4",
     "See My Work: Portfolio",
     icon_size,
 )
-
-create_custom_button(
+st_button(
     "github",
     "https://github.com/nikitaprasad21",
     "Checkout My Latest Projects: GitHub Repositories",
     icon_size,
 )
-
-create_custom_button(
+st_button(
     "tableau",
     "https://public.tableau.com/app/profile/nikita.prasad",
     "Explore My Data Stories: Tableau Dashboards",
     icon_size,
 )
-
-create_custom_button(
+st_button(
     "linkedin",
     "https://www.linkedin.com/in/nikita-prasad-analyst/",
     "Let's Connect: LinkedIn",
