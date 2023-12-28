@@ -13,11 +13,6 @@ image = Image.open("profile-pic.png")
 # Add image to col2 with a specified width
 col2.image(image, width=300)
 
-# Apply background color to the whole page
-st.markdown(
-    "<style>" "body { background-color: #cfcfcf; }" "</style>",
-    unsafe_allow_html=True,
-)
 
 # User name and small description
 st.title("Hi-ya!!!👋, I'm Nikita Prasad")
