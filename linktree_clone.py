@@ -15,8 +15,11 @@ col2.image(image, width=300)
 
 
 # User name and small description
-st.title("Hi-ya!!!👋, I'm Nikita Prasad", text_align="center")
+st.title("Hi-ya!!!👋, I'm Nikita Prasad")
 st.write("Data Analyst | Machine Learning and Data Analytics Practitioner")
+
+# Center the title
+st.title("", text_align="center")
 
 icon_size = 20
 
