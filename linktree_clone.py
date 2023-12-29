@@ -18,6 +18,16 @@ col2.image(image, width=180)
 st.title("Hi-ya!!!👋, I'm Nikita Prasad")
 st.write("Data Analyst | Machine Learning and Data Analytics Practitioner")
 
+# Center the title
+st.markdown(
+    """<style>
+        div.stTitle {
+            text-align: center;
+        }
+    </style>""",
+    unsafe_allow_html=True,
+)
+
 icon_size = 20
 
 # Creating buttons for social media links
