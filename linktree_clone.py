@@ -30,7 +30,7 @@ st_button(
 st_button(
     "github",
     "https://github.com/nikitaprasad21",
-    "Checkout My Latest Projects: GitHub Repositories",
+    "Checkout My Projects: GitHub Repositories",
     icon_size,
 )
 st_button(
