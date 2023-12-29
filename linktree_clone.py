@@ -11,7 +11,7 @@ col1, col2, col3 = st.columns(3)
 image = Image.open("profile-pic.png")
 
 # Add image to col2 with a specified width
-col2.image(image, width=300)
+col2.image(image, width=180)
 
 
 # User name and small description
