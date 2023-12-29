@@ -15,18 +15,8 @@ col2.image(image, width=180)
 
 
 # User name and small description
-st.title("Hi-ya!!!👋, I'm Nikita Prasad", className="centered-title")
+st.header("Hi-ya!!!👋, I'm Nikita Prasad")
 st.write("Data Analyst | Machine Learning and Data Analytics Practitioner")
-
-# Center the title
-st.markdown(
-    """<style>
-        div.stTitle {
-            text-align: center;
-        }
-    </style>""",
-    unsafe_allow_html=True,
-)
 
 icon_size = 20
 
